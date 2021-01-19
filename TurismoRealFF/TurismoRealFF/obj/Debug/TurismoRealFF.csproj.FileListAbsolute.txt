@@ -1,0 +1,307 @@
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\bin\Debug\TurismoRealFF.exe.config
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\bin\Debug\TurismoRealFF.exe
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\bin\Debug\TurismoRealFF.pdb
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\bin\Debug\MaterialDesignColors.dll
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\bin\Debug\MaterialDesignColors.pdb
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\MainWindow.g.cs
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Informes\MenuInformes.g.cs
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Informes\RecibirPagos.g.cs
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Login.g.cs
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantencion\Disponibilidad.g.cs
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantencion\IngresarMantencion.g.cs
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantencion\ListarMantencion.g.cs
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantencion\MenuMantencion.g.cs
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Clientes\Modificar-cliente.g.cs
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\MenuDepartamento.g.cs
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\Recinto\AgregarRecinto.g.cs
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\Recinto\ListarRecinto.g.cs
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\Recinto\MenuRecinto.g.cs
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Funcionario\AgregarFuncionario.g.cs
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Funcionario\ListarFuncionario.g.cs
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Funcionario\MenuFuncionario.g.cs
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Inventario\ListarInventario.g.cs
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\MenuMantenedores.g.cs
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Servicios\MenuServicio.g.cs
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Servicios\ServicioExtra\AgregarServicioExtra.g.cs
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Servicios\ServicioExtra\ListarServicioExtra.g.cs
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Servicios\ServicioExtra\MenuServicioExtra.g.cs
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Servicios\Transporte\PlanificarTransporte.g.cs
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\MenuPrincipal.g.cs
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\App.g.cs
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\TurismoRealFF_MarkupCompile.cache
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\TurismoRealFF_MarkupCompile.lref
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\App.baml
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\MainWindow.baml
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Informes\MenuInformes.baml
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Informes\RecibirPagos.baml
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Login.baml
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantencion\Disponibilidad.baml
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantencion\IngresarMantencion.baml
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantencion\ListarMantencion.baml
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantencion\MenuMantencion.baml
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Clientes\Modificar-cliente.baml
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\MenuDepartamento.baml
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\Recinto\AgregarRecinto.baml
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\Recinto\ListarRecinto.baml
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\Recinto\MenuRecinto.baml
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Funcionario\AgregarFuncionario.baml
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Funcionario\ListarFuncionario.baml
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Funcionario\MenuFuncionario.baml
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Inventario\ListarInventario.baml
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\MenuMantenedores.baml
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Servicios\MenuServicio.baml
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Servicios\ServicioExtra\AgregarServicioExtra.baml
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Servicios\ServicioExtra\ListarServicioExtra.baml
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Servicios\ServicioExtra\MenuServicioExtra.baml
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Servicios\Transporte\PlanificarTransporte.baml
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\MenuPrincipal.baml
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\TurismoRealFF.g.resources
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\TurismoRealFF.Properties.Resources.resources
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\TurismoRealFF.csproj.GenerateResource.cache
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\TurismoRealFF.csproj.CoreCompileInputs.cache
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\TurismoRealFF.csproj.CopyComplete
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\TurismoRealFF.exe
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\TurismoRealFF.pdb
+C:\Users\pablo\Music\version27(Experimentall)\TurismoRealFF\TurismoRealFF\obj\Debug\TurismoRealFF.csprojAssemblyReference.cache
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\bin\Debug\TurismoRealFF.exe.config
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\bin\Debug\TurismoRealFF.exe
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\bin\Debug\TurismoRealFF.pdb
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\bin\Debug\Common.Logging.Core.dll
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\bin\Debug\Common.Logging.dll
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\bin\Debug\itext.barcodes.dll
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\bin\Debug\itext.forms.dll
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\bin\Debug\itext.io.dll
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\bin\Debug\itext.kernel.dll
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\bin\Debug\itext.layout.dll
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\bin\Debug\itext.pdfa.dll
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\bin\Debug\itext.sign.dll
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\bin\Debug\itext.styledxmlparser.dll
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\bin\Debug\itext.svg.dll
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\bin\Debug\MaterialDesignColors.dll
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\bin\Debug\Common.Logging.pdb
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\bin\Debug\Common.Logging.xml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\bin\Debug\Common.Logging.Core.pdb
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\bin\Debug\Common.Logging.Core.xml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\bin\Debug\itext.barcodes.xml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\bin\Debug\itext.forms.xml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\bin\Debug\itext.io.xml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\bin\Debug\itext.kernel.xml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\bin\Debug\itext.layout.xml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\bin\Debug\itext.pdfa.xml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\bin\Debug\itext.sign.xml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\bin\Debug\itext.styledxmlparser.xml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\bin\Debug\itext.svg.xml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\bin\Debug\MaterialDesignColors.pdb
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\MainWindow.g.cs
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Informes\MenuInformes.g.cs
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Informes\RecibirPagos.g.cs
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Informes\ReporteEstadistica.g.cs
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Login.g.cs
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantencion\Disponibilidad.g.cs
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantencion\IngresarMantencion.g.cs
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantencion\ListarMantencion.g.cs
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantencion\MenuMantencion.g.cs
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Clientes\Modificar-cliente.g.cs
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\MenuDepartamento.g.cs
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\Recinto\AgregarRecinto.g.cs
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\Recinto\ListarRecinto.g.cs
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\Recinto\MenuRecinto.g.cs
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Funcionario\AgregarFuncionario.g.cs
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Funcionario\ListarFuncionario.g.cs
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Funcionario\MenuFuncionario.g.cs
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Inventario\ListarInventario.g.cs
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\MenuMantenedores.g.cs
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Servicios\MenuServicio.g.cs
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Servicios\ServicioExtra\AgregarServicioExtra.g.cs
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Servicios\ServicioExtra\ListarServicioExtra.g.cs
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Servicios\ServicioExtra\MenuServicioExtra.g.cs
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Servicios\Transporte\PlanificarTransporte.g.cs
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\MenuPrincipal.g.cs
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\App.g.cs
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\TurismoRealFF_MarkupCompile.cache
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\TurismoRealFF_MarkupCompile.lref
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\App.baml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\MainWindow.baml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Informes\MenuInformes.baml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Informes\RecibirPagos.baml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Informes\ReporteEstadistica.baml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Login.baml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantencion\Disponibilidad.baml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantencion\IngresarMantencion.baml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantencion\ListarMantencion.baml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantencion\MenuMantencion.baml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Clientes\Modificar-cliente.baml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\MenuDepartamento.baml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\Recinto\AgregarRecinto.baml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\Recinto\ListarRecinto.baml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\Recinto\MenuRecinto.baml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Funcionario\AgregarFuncionario.baml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Funcionario\ListarFuncionario.baml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Funcionario\MenuFuncionario.baml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Inventario\ListarInventario.baml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\MenuMantenedores.baml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Servicios\MenuServicio.baml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Servicios\ServicioExtra\AgregarServicioExtra.baml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Servicios\ServicioExtra\ListarServicioExtra.baml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Servicios\ServicioExtra\MenuServicioExtra.baml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Servicios\Transporte\PlanificarTransporte.baml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\MenuPrincipal.baml
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\TurismoRealFF.g.resources
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\TurismoRealFF.Properties.Resources.resources
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\TurismoRealFF.csproj.GenerateResource.cache
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\TurismoRealFF.csproj.CoreCompileInputs.cache
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\TurismoRealFF.csproj.CopyComplete
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\TurismoRealFF.exe
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\TurismoRealFF.pdb
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\TurismoRealFF.csprojAssemblyReference.cache
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Informes\ReporteReserva.g.cs
+C:\Users\franc\Desktop\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Informes\ReporteReserva.baml
+C:\Users\pablo\Music\version 28\TurismoRealFF\TurismoRealFF\obj\Debug\TurismoRealFF.csprojAssemblyReference.cache
+C:\Users\pablo\Music\version 28\TurismoRealFF\TurismoRealFF\obj\Debug\MainWindow.g.cs
+C:\Users\pablo\Music\version 28\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Informes\MenuInformes.g.cs
+C:\Users\pablo\Music\version 28\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Informes\RecibirPagos.g.cs
+C:\Users\pablo\Music\version 28\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Informes\ReporteEstadistica.g.cs
+C:\Users\pablo\Music\version 28\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Informes\ReporteReserva.g.cs
+C:\Users\pablo\Music\version 28\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Login.g.cs
+C:\Users\pablo\Music\version 28\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantencion\Disponibilidad.g.cs
+C:\Users\pablo\Music\version 28\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantencion\IngresarMantencion.g.cs
+C:\Users\pablo\Music\version 28\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantencion\ListarMantencion.g.cs
+C:\Users\pablo\Music\version 28\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantencion\MenuMantencion.g.cs
+C:\Users\pablo\Music\version 28\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Clientes\Modificar-cliente.g.cs
+C:\Users\pablo\Music\version 28\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\Depto\AgregarDepartamento.g.cs
+C:\Users\pablo\Music\version 28\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\Depto\ListarDepartamento.g.cs
+C:\Users\pablo\Music\version 28\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\Depto\MenuDepartamento.g.cs
+C:\Users\pablo\Music\version 28\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\MenuDepartamento.g.cs
+C:\Users\pablo\Music\version 28\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\Recinto\AgregarRecinto.g.cs
+C:\Users\pablo\Music\version 28\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\Recinto\ListarRecinto.g.cs
+C:\Users\pablo\Music\version 28\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\Recinto\MenuRecinto.g.cs
+C:\Users\pablo\Music\version 28\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Funcionario\AgregarFuncionario.g.cs
+C:\Users\pablo\Music\version 28\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Funcionario\ListarFuncionario.g.cs
+C:\Users\pablo\Music\version 28\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Funcionario\MenuFuncionario.g.cs
+C:\Users\pablo\Music\version 28\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Inventario\ListarInventario.g.cs
+C:\Users\pablo\Music\version 28\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\MenuMantenedores.g.cs
+C:\Users\pablo\Music\version 28\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Servicios\MenuServicio.g.cs
+C:\Users\pablo\Music\version 28\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Servicios\ServicioExtra\AgregarServicioExtra.g.cs
+C:\Users\pablo\Music\version 28\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Servicios\ServicioExtra\ListarServicioExtra.g.cs
+C:\Users\pablo\Music\version 28\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Servicios\ServicioExtra\MenuServicioExtra.g.cs
+C:\Users\pablo\Music\version 28\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Servicios\Transporte\PlanificarTransporte.g.cs
+C:\Users\pablo\Music\version 28\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\MenuPrincipal.g.cs
+C:\Users\pablo\Music\version 28\TurismoRealFF\TurismoRealFF\obj\Debug\App.g.cs
+C:\Users\pablo\Music\version 28\TurismoRealFF\TurismoRealFF\obj\Debug\TurismoRealFF_MarkupCompile.cache
+C:\Users\pablo\Music\version 28\TurismoRealFF\TurismoRealFF\obj\Debug\TurismoRealFF_MarkupCompile.lref
+C:\Users\pablo\Music\version 28\TurismoRealFF\TurismoRealFF\obj\Debug\TurismoRealFF.exe
+C:\Users\pablo\Music\version 28\TurismoRealFF\TurismoRealFF\obj\Debug\TurismoRealFF.pdb
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\MainWindow.g.cs
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Informes\MenuInformes.g.cs
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Informes\RecibirPagos.g.cs
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Informes\ReporteEstadistica.g.cs
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Informes\ReporteReserva.g.cs
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Login.g.cs
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantencion\Disponibilidad.g.cs
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantencion\IngresarMantencion.g.cs
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantencion\ListarMantencion.g.cs
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantencion\MenuMantencion.g.cs
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Clientes\Modificar-cliente.g.cs
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\Depto\AgregarDepartamento.g.cs
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\Depto\ImagenDepartamento.g.cs
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\Depto\ListarDepartamento.g.cs
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\Depto\MenuDepartamentos.g.cs
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\MenuDepartamento.g.cs
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\Recinto\AgregarRecinto.g.cs
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\Recinto\ListarRecinto.g.cs
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\Recinto\MenuRecinto.g.cs
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Funcionario\AgregarFuncionario.g.cs
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Funcionario\ListarFuncionario.g.cs
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Funcionario\MenuFuncionario.g.cs
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Inventario\ListarInventario.g.cs
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\MenuMantenedores.g.cs
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Servicios\MenuServicio.g.cs
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Servicios\ServicioExtra\AgregarServicioExtra.g.cs
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Servicios\ServicioExtra\ListarServicioExtra.g.cs
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Servicios\ServicioExtra\MenuServicioExtra.g.cs
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Servicios\Transporte\PlanificarTransporte.g.cs
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\MenuPrincipal.g.cs
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\App.g.cs
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\TurismoRealFF_MarkupCompile.cache
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\TurismoRealFF_MarkupCompile.lref
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\TurismoRealFF.csprojAssemblyReference.cache
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\bin\Debug\TurismoRealFF.exe.config
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\bin\Debug\TurismoRealFF.exe
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\bin\Debug\TurismoRealFF.pdb
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\bin\Debug\Common.Logging.Core.dll
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\bin\Debug\Common.Logging.dll
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\bin\Debug\itext.barcodes.dll
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\bin\Debug\itext.forms.dll
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\bin\Debug\itext.io.dll
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\bin\Debug\itext.kernel.dll
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\bin\Debug\itext.layout.dll
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\bin\Debug\itext.pdfa.dll
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\bin\Debug\itext.sign.dll
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\bin\Debug\itext.styledxmlparser.dll
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\bin\Debug\itext.svg.dll
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\bin\Debug\MaterialDesignColors.dll
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\bin\Debug\Common.Logging.pdb
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\bin\Debug\Common.Logging.xml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\bin\Debug\Common.Logging.Core.pdb
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\bin\Debug\Common.Logging.Core.xml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\bin\Debug\itext.barcodes.xml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\bin\Debug\itext.forms.xml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\bin\Debug\itext.io.xml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\bin\Debug\itext.kernel.xml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\bin\Debug\itext.layout.xml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\bin\Debug\itext.pdfa.xml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\bin\Debug\itext.sign.xml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\bin\Debug\itext.styledxmlparser.xml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\bin\Debug\itext.svg.xml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\bin\Debug\MaterialDesignColors.pdb
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\App.baml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\MainWindow.baml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Informes\MenuInformes.baml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Informes\RecibirPagos.baml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Informes\ReporteEstadistica.baml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Informes\ReporteReserva.baml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Login.baml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantencion\Disponibilidad.baml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantencion\IngresarMantencion.baml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantencion\ListarMantencion.baml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantencion\MenuMantencion.baml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Clientes\Modificar-cliente.baml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\Depto\AgregarDepartamento.baml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\Depto\ImagenDepartamento.baml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\Depto\ListarDepartamento.baml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\Depto\MenuDepartamentos.baml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\MenuDepartamento.baml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\Recinto\AgregarRecinto.baml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\Recinto\ListarRecinto.baml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Departamento\Recinto\MenuRecinto.baml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Funcionario\AgregarFuncionario.baml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Funcionario\ListarFuncionario.baml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Funcionario\MenuFuncionario.baml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Inventario\ListarInventario.baml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\MenuMantenedores.baml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Servicios\MenuServicio.baml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Servicios\ServicioExtra\AgregarServicioExtra.baml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Servicios\ServicioExtra\ListarServicioExtra.baml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Servicios\ServicioExtra\MenuServicioExtra.baml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\Mantenedores\Servicios\Transporte\PlanificarTransporte.baml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\Vistas\MenuPrincipal.baml
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\TurismoRealFF.g.resources
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\TurismoRealFF.Properties.Resources.resources
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\TurismoRealFF.csproj.GenerateResource.cache
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\TurismoRealFF.csproj.CoreCompileInputs.cache
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\TurismoRealFF.csproj.CopyComplete
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\TurismoRealFF.exe
+C:\Users\franc\Desktop\TurismoReal\TurismoRealFF\TurismoRealFF\obj\Debug\TurismoRealFF.pdb

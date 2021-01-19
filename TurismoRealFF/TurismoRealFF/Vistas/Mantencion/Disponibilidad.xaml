@@ -1,0 +1,256 @@
+﻿<Window x:Name="Disponibilidad1" x:Class="TurismoRealFF.Vistas.Mantencion.Disponibilidad"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TurismoRealFF.Vistas.Mantencion"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" Height="600" Width="1024" WindowStyle="None" WindowStartupLocation="CenterScreen">
+    <WindowChrome.WindowChrome>
+        <WindowChrome CaptionHeight="0"/>
+    </WindowChrome.WindowChrome>
+    <Window.Resources>
+        <Storyboard x:Key="OpenMenu">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="GridMain">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="250"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="GridMain">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="50"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="StackPanelMenu">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="250"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="listViewItem">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-250"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-250"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="listViewItem1">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-250"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-250"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="listViewItem2">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-250"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-250"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+
+
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="button">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="button">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="CloseMenu">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="GridMain">
+                <EasingDoubleKeyFrame KeyTime="0" Value="250"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="GridMain">
+                <EasingDoubleKeyFrame KeyTime="0" Value="50"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="StackPanelMenu">
+                <EasingDoubleKeyFrame KeyTime="0" Value="250"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonOpenMenu">
+            <BeginStoryboard Storyboard="{StaticResource OpenMenu}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonCloseMenu">
+            <BeginStoryboard x:Name="CloseMenu_BeginStoryboard" Storyboard="{StaticResource CloseMenu}"/>
+        </EventTrigger>
+    </Window.Triggers>
+    <Grid Background="#FF3580BF">
+        <StackPanel x:Name="StackPanelMenu" Width="250" HorizontalAlignment="Left" Margin="-250 0 0 0" RenderTransformOrigin="0.5,0.5">
+            <StackPanel.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </StackPanel.RenderTransform>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Height="100" HorizontalAlignment="Center">
+                <Button x:Name="ButtonAtras" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Background="{x:Null}" BorderBrush="{x:Null}" Padding="0" Width="50" Height="50" Margin="10" Click="ButtonAtras_Click">
+                    <materialDesign:PackIcon Kind="KeyboardReturn" Width="40" Height="40"/>
+                </Button>
+                <Button x:Name="button" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" BorderBrush="{x:Null}" Padding="0" Width="80" Height="80" Margin="10" RenderTransformOrigin="0.5,0.5">
+                    <Button.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Button.RenderTransform>
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Imagenes/turismo.ico" Stretch="Uniform"/>
+                    </Button.Background>
+                </Button>
+                <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Background="{x:Null}" BorderBrush="{x:Null}" Padding="0" Width="50" Height="50" Margin="10">
+                    <materialDesign:PackIcon Kind="InformationOutline" Width="40" Height="40"/>
+                </Button>
+            </StackPanel>
+            <ListView Height="298">
+                <ListViewItem x:Name="listViewItem" Height="60" RenderTransformOrigin="0.5,0.5">
+                    <ListViewItem.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ListViewItem.RenderTransform>
+                    <StackPanel Orientation="Horizontal" Margin="10 0">
+                        <materialDesign:PackIcon Kind="UserAdd" Width="30" Height="30" VerticalAlignment="Center" Margin="5"/>
+                        <Button x:Name="ButtonDisponibilidad" Width="98" Height="30" Padding="0" Background="{x:Null}" BorderBrush="{x:Null}" Click="ButtonDisponibilidad_Click">
+                            <TextBlock Text="Disponibilidad" VerticalAlignment="Center" Width="98" RenderTransformOrigin="0.518,0.488"/>
+                        </Button>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem x:Name="listViewItem1" Height="60" RenderTransformOrigin="0.5,0.5">
+                    <ListViewItem.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ListViewItem.RenderTransform>
+                    <StackPanel Orientation="Horizontal" Margin="10 0">
+                        <materialDesign:PackIcon Kind="OfficeBuilding" Width="30" Height="30" VerticalAlignment="Center" Margin="5"/>
+                        <Button x:Name="ButtonIngresarM" Width="144" Height="30" Padding="0" Background="{x:Null}" BorderBrush="{x:Null}" Click="ButtonIngresarM_Click">
+                            <TextBlock Text="Ingresar Mantención" VerticalAlignment="Center" Width="144" RenderTransformOrigin="0.518,0.488"/>
+                        </Button>
+                    </StackPanel>
+                </ListViewItem>
+
+                <ListViewItem x:Name="listViewItem2" Height="60" RenderTransformOrigin="0.5,0.5">
+                    <ListViewItem.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ListViewItem.RenderTransform>
+                    <StackPanel Orientation="Horizontal" Margin="10 0" Width="179">
+                        <materialDesign:PackIcon Kind="Helmet" Width="30" Height="30" VerticalAlignment="Center" Margin="5"/>
+                        <Button x:Name="ButtonListarM" Width="137" Height="30" Padding="0" Background="{x:Null}" BorderBrush="{x:Null}" Click="ButtonListarM_Click">
+                            <TextBlock Text="Listar Mantención" VerticalAlignment="Center" Width="131" RenderTransformOrigin="0.518,0.488"/>
+                        </Button>
+                    </StackPanel>
+                </ListViewItem>
+
+
+            </ListView>
+        </StackPanel>
+        <Grid x:Name="GridMain" Background="#FFFBFBFB" Width="1024" RenderTransformOrigin="0.5,0.5">
+            <Grid.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Grid.RenderTransform>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="250"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Column="1" Background="#FF3580BF">
+                <Image Height="150" VerticalAlignment="Top" Source="/Imagenes/back.jpg" Stretch="UniformToFill"/>
+                <Ellipse Height="151" Width="188" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,49,20,0" Stroke="White">
+                    <Ellipse.Fill>
+                        <ImageBrush ImageSource="/Imagenes/turismo.ico" Stretch="Uniform"/>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <TextBlock Text="" Foreground="White" FontSize="28" FontFamily="Nirmala UI Semilight" Margin="10 100" VerticalAlignment="Top"/>
+                <StackPanel Margin="0 150">
+                    <Grid Height="60" Margin="20 50 20 0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="30"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Text="FOLLOWERS" VerticalAlignment="Bottom" Foreground="#FFFBFBFB" Margin="5,0,5,5"/>
+                        <TextBlock Text="1.5K" VerticalAlignment="Top" Foreground="#FFFBFBFB" Grid.Row="1" Margin="10 0"/>
+
+                        <TextBlock Text="FOLLOWING" VerticalAlignment="Bottom" Foreground="#FFFBFBFB" Margin="5,0,5,5" Grid.Column="1"/>
+                        <TextBlock Text="2.3K" VerticalAlignment="Top" Foreground="#FFFBFBFB" Grid.Row="1" Margin="10 0" Grid.Column="1"/>
+                    </Grid>
+
+                    <TextBlock TextWrapping="Wrap" Margin="10" Foreground="#FFFBFBFB" FontSize="14">Estimado Administrador, en esta sección tendrá dos calendarios en donde podra ver las fechas que han sido reservadas por los clientes y el otro es de las mantenciones que se han solicitado, y además agregar fechas de mantenciones de acuerdo a la disponibilidad que hay entre reservas y mantención.</TextBlock>
+                </StackPanel>
+            </Grid>
+            <Grid>
+
+                <Button x:Name="ButtonCloseMenu" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="30" Height="30" Padding="0" Background="{x:Null}" BorderBrush="{x:Null}" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="5" Click="ButtonCloseMenu_Click" Visibility="Collapsed">
+                    <materialDesign:PackIcon Kind="Menu" Foreground="#FF3580BF"/>
+                </Button>
+                <Button x:Name="ButtonOpenMenu" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="30" Height="30" Padding="0" Background="{x:Null}" BorderBrush="{x:Null}" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="5" Click="ButtonOpenMenu_Click">
+                    <materialDesign:PackIcon Kind="Menu" Foreground="#FF3580BF"/>
+                </Button>
+
+                <Grid HorizontalAlignment="Left" Height="438" Margin="33,10,0,0" VerticalAlignment="Top" Width="731" Background="#FFF5F4F4">
+                    <Label x:Name="lbl_reserva" Content="Fechas Reservadas" HorizontalAlignment="Left" Margin="286,19,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.263,0.115" Foreground="#DD000000"/>
+                    <Calendar x:Name="cld_fecha_reserva" HorizontalAlignment="Left" Margin="226,53,0,0" VerticalAlignment="Top" SelectionMode="SingleRange"/>
+                    <Label x:Name="lbl_mantencion" Content="Fechas Mantenciones" HorizontalAlignment="Left" Margin="549,19,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.263,0.115" Foreground="#DD000000"/>
+                    <Calendar x:Name="cld_fecha_mantenciones" HorizontalAlignment="Left" Margin="493,53,0,0" VerticalAlignment="Top" SelectionMode="SingleRange"/>
+                    <Label x:Name="lbl_disponibilidad" Content="Disponibilidad" HorizontalAlignment="Left" Margin="60,19,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.263,0.115" Foreground="#DD000000"/>
+                    <Label x:Name="lbl_horaInicio" Content="Hora de Inicio de la Mantención" HorizontalAlignment="Left" Margin="16,73,0,0" VerticalAlignment="Top" Foreground="#DD000000"/>
+                    <ComboBox x:Name="cmb_horaIni" HorizontalAlignment="Left" Margin="27,120,0,0" VerticalAlignment="Top" Width="48" BorderBrush="#89000000"/>
+                    <Label x:Name="lbl_horaTermino" Content="Hora de Término de la Mantención" HorizontalAlignment="Left" Margin="12,197,0,0" VerticalAlignment="Top" Foreground="#DD000000"/>
+                    <ComboBox x:Name="cmb_horaTer" HorizontalAlignment="Left" Margin="27,244,0,0" VerticalAlignment="Top" Width="48" BorderBrush="#89000000"/>
+                    <DatePicker x:Name="dtp_fechaIni" HorizontalAlignment="Left" Margin="99,121,0,0" VerticalAlignment="Top" Width="83" BorderBrush="#89000000"/>
+                    <DatePicker x:Name="dtp_fechaTer" HorizontalAlignment="Left" Margin="99,245,0,0" VerticalAlignment="Top" Width="83" BorderBrush="#89000000"/>
+                    <TextBox x:Name="txt_depto" HorizontalAlignment="Left" Height="22" Margin="340,322,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="28" IsEnabled="False" Visibility="Hidden"/>
+
+
+                </Grid>
+                <Grid Margin="84,492,52,0" Background="#FFFF">
+                    <Button x:Name="btn_registrar" Content="Registrar" HorizontalAlignment="Left" Margin="254,34,0,0" VerticalAlignment="Top" Width="145" Height="43" Click="btn_registrar_Click"/>
+
+                </Grid>
+            </Grid>
+            <Grid HorizontalAlignment="Left" Height="90" Margin="267,417,0,0" VerticalAlignment="Top" Width="202" Background="#FF3580BF">
+                <Label x:Name="lbl_content" Content="Los números grises son los &#xA;días que están reservados." HorizontalAlignment="Left" Margin="23,2,0,0" VerticalAlignment="Top" Height="44" Width="169" Foreground="#FFFBFBFB"/>
+                <Grid HorizontalAlignment="Left" Height="20" Margin="5,13,0,0" VerticalAlignment="Top" Width="18" Background="#FFB6B4B4"/>
+                <Label x:Name="lbl_content_Copy" Content="Los números en blanco son &#xA;los días que están reservados." HorizontalAlignment="Left" Margin="23,48,0,-1" VerticalAlignment="Top" Height="44" Width="169" Foreground="#FFFBFBFB"/>
+                <Grid HorizontalAlignment="Left" Height="20" Margin="5,59,0,0" VerticalAlignment="Top" Width="18" Background="#FFFBFBFB"/>
+            </Grid>
+        </Grid>
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Height="40" HorizontalAlignment="Right" Margin="10">
+            <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="30" Height="30" Padding="0" Background="{x:Null}" BorderBrush="{x:Null}">
+                <materialDesign:PackIcon Kind="Bell"/>
+            </Button>
+            <Button x:Name="ButtonClose" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="30" Height="30" Padding="0" Background="{x:Null}" BorderBrush="{x:Null}" Click="ButtonClose_Click">
+                <materialDesign:PackIcon Kind="Power"/>
+            </Button>
+        </StackPanel>
+        <Grid HorizontalAlignment="Left" Height="91" Margin="524,418,0,0" VerticalAlignment="Top" Width="219" Background="#FF3580BF">
+            <Label x:Name="lbl_content1" Content="Los números grises son los &#xA;días que están en mantención." HorizontalAlignment="Left" Margin="23,2,0,0" VerticalAlignment="Top" Height="44" Width="186" Foreground="#FFFBFBFB"/>
+            <Grid HorizontalAlignment="Left" Height="20" Margin="5,13,0,0" VerticalAlignment="Top" Width="18" Background="#FFB6B4B4"/>
+            <Label x:Name="lbl_content_Copy1" Content="Los números en blanco son &#xA;los días que están en mntención." HorizontalAlignment="Left" Margin="23,48,0,-1" VerticalAlignment="Top" Height="44" Width="186" Foreground="#FFFBFBFB"/>
+            <Grid HorizontalAlignment="Left" Height="20" Margin="5,59,0,0" VerticalAlignment="Top" Width="18" Background="#FFFBFBFB"/>
+        </Grid>
+    </Grid>
+</Window>

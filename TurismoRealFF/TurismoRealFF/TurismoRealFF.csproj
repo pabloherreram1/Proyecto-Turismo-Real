@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{254D76F2-458F-4A08-A87E-8626E6D02590}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TurismoRealFF</RootNamespace>
+    <AssemblyName>TurismoRealFF</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.5.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
+      <HintPath>..\packages\Portable.BouncyCastle.1.8.5\lib\net40\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging, Version=3.4.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.3.4.1\lib\net40\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging.Core, Version=3.4.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.Core.3.4.1\lib\net40\Common.Logging.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.barcodes, Version=7.1.13.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.13\lib\net40\itext.barcodes.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.forms, Version=7.1.13.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.13\lib\net40\itext.forms.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.io, Version=7.1.13.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.13\lib\net40\itext.io.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.kernel, Version=7.1.13.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.13\lib\net40\itext.kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.layout, Version=7.1.13.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.13\lib\net40\itext.layout.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.pdfa, Version=7.1.13.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.13\lib\net40\itext.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.sign, Version=7.1.13.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.13\lib\net40\itext.sign.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.styledxmlparser, Version=7.1.13.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.13\lib\net40\itext.styledxmlparser.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.svg, Version=7.1.13.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.13\lib\net40\itext.svg.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignColors, Version=1.2.7.1979, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignColors.1.2.7\lib\net45\MaterialDesignColors.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignThemes.Wpf, Version=3.2.0.1979, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignThemes.3.2.0\lib\net45\MaterialDesignThemes.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Controlador\ClDepartamento.cs" />
+    <Compile Include="Controlador\ClDisponibilidad.cs" />
+    <Compile Include="Controlador\ClFinanza.cs" />
+    <Compile Include="Controlador\ClLoggerErrores.cs" />
+    <Compile Include="Controlador\ClMantencion.cs" />
+    <Compile Include="Controlador\ClReserva.cs" />
+    <Compile Include="Modelo\Depto.cs" />
+    <Compile Include="Modelo\Disponibilidades.cs" />
+    <Compile Include="Modelo\Finanza.cs" />
+    <Compile Include="Modelo\Funci.cs" />
+    <Compile Include="Modelo\ImageDepto.cs" />
+    <Compile Include="Modelo\Mantencion.cs" />
+    <Compile Include="Modelo\MantencionBusqueda.cs" />
+    <Compile Include="Modelo\Reci.cs" />
+    <Compile Include="Modelo\Reserva.cs" />
+    <Compile Include="Vistas\Informes\MenuInformes.xaml.cs">
+      <DependentUpon>MenuInformes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Informes\RecibirPagos.xaml.cs">
+      <DependentUpon>RecibirPagos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Informes\ReporteEstadistica.xaml.cs">
+      <DependentUpon>ReporteEstadistica.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Informes\ReporteReserva.xaml.cs">
+      <DependentUpon>ReporteReserva.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mantencion\Disponibilidad.xaml.cs">
+      <DependentUpon>Disponibilidad.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mantencion\IngresarMantencion.xaml.cs">
+      <DependentUpon>IngresarMantencion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mantencion\ListarMantencion.xaml.cs">
+      <DependentUpon>ListarMantencion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mantencion\MenuMantencion.xaml.cs">
+      <DependentUpon>MenuMantencion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mantenedores\Clientes\Modificar-cliente.xaml.cs">
+      <DependentUpon>Modificar-cliente.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mantenedores\Departamento\Depto\AgregarDepartamento.xaml.cs">
+      <DependentUpon>AgregarDepartamento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mantenedores\Departamento\Depto\ImagenDepartamento.xaml.cs">
+      <DependentUpon>ImagenDepartamento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mantenedores\Departamento\Depto\ListarDepartamento.xaml.cs">
+      <DependentUpon>ListarDepartamento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mantenedores\Departamento\Depto\MenuDepartamentos.xaml.cs">
+      <DependentUpon>MenuDepartamentos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mantenedores\Departamento\MenuDepartamento.xaml.cs">
+      <DependentUpon>MenuDepartamento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mantenedores\Departamento\Recinto\AgregarRecinto.xaml.cs">
+      <DependentUpon>AgregarRecinto.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mantenedores\Departamento\Recinto\ListarRecinto.xaml.cs">
+      <DependentUpon>ListarRecinto.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mantenedores\Departamento\Recinto\MenuRecinto.xaml.cs">
+      <DependentUpon>MenuRecinto.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mantenedores\Funcionario\AgregarFuncionario.xaml.cs">
+      <DependentUpon>AgregarFuncionario.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mantenedores\Funcionario\ListarFuncionario.xaml.cs">
+      <DependentUpon>ListarFuncionario.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mantenedores\Funcionario\MenuFuncionario.xaml.cs">
+      <DependentUpon>MenuFuncionario.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mantenedores\Inventario\ListarInventario.xaml.cs">
+      <DependentUpon>ListarInventario.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mantenedores\MenuMantenedores.xaml.cs">
+      <DependentUpon>MenuMantenedores.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mantenedores\Servicios\MenuServicio.xaml.cs">
+      <DependentUpon>MenuServicio.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mantenedores\Servicios\ServicioExtra\AgregarServicioExtra.xaml.cs">
+      <DependentUpon>AgregarServicioExtra.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mantenedores\Servicios\ServicioExtra\ListarServicioExtra.xaml.cs">
+      <DependentUpon>ListarServicioExtra.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mantenedores\Servicios\ServicioExtra\MenuServicioExtra.xaml.cs">
+      <DependentUpon>MenuServicioExtra.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mantenedores\Servicios\Transporte\PlanificarTransporte.xaml.cs">
+      <DependentUpon>PlanificarTransporte.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\MenuPrincipal.xaml.cs">
+      <DependentUpon>MenuPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\NotificationCenter.cs" />
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controlador\ClBoleta.cs" />
+    <Compile Include="Controlador\ClCliente.cs" />
+    <Compile Include="Controlador\ClFuncionario.cs" />
+    <Compile Include="Controlador\ClProducto.cs" />
+    <Compile Include="Controlador\ClRecinto.cs" />
+    <Compile Include="Controlador\ClServicioExtra.cs" />
+    <Compile Include="Controlador\ClTransporte.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Vistas\Informes\MenuInformes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vistas\Informes\RecibirPagos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vistas\Informes\ReporteEstadistica.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vistas\Informes\ReporteReserva.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vistas\Login.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vistas\Mantencion\Disponibilidad.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vistas\Mantencion\IngresarMantencion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vistas\Mantencion\ListarMantencion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vistas\Mantencion\MenuMantencion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vistas\Mantenedores\Clientes\Modificar-cliente.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vistas\Mantenedores\Departamento\Depto\AgregarDepartamento.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vistas\Mantenedores\Departamento\Depto\ImagenDepartamento.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vistas\Mantenedores\Departamento\Depto\ListarDepartamento.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vistas\Mantenedores\Departamento\Depto\MenuDepartamentos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vistas\Mantenedores\Departamento\MenuDepartamento.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vistas\Mantenedores\Departamento\Recinto\AgregarRecinto.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vistas\Mantenedores\Departamento\Recinto\ListarRecinto.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vistas\Mantenedores\Departamento\Recinto\MenuRecinto.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vistas\Mantenedores\Funcionario\AgregarFuncionario.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vistas\Mantenedores\Funcionario\ListarFuncionario.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vistas\Mantenedores\Funcionario\MenuFuncionario.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vistas\Mantenedores\Inventario\ListarInventario.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vistas\Mantenedores\MenuMantenedores.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vistas\Mantenedores\Servicios\MenuServicio.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vistas\Mantenedores\Servicios\ServicioExtra\AgregarServicioExtra.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vistas\Mantenedores\Servicios\ServicioExtra\ListarServicioExtra.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vistas\Mantenedores\Servicios\ServicioExtra\MenuServicioExtra.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vistas\Mantenedores\Servicios\Transporte\PlanificarTransporte.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vistas\MenuPrincipal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Modelo\Boleta.cs" />
+    <Compile Include="Modelo\Categoria.cs" />
+    <Compile Include="Modelo\Ciudad.cs" />
+    <Compile Include="Modelo\Cliente.cs" />
+    <Compile Include="Modelo\Conductor.cs" />
+    <Compile Include="Modelo\Departamento.cs" />
+    <Compile Include="Modelo\Funcionario.cs" />
+    <Compile Include="Modelo\Producto.cs" />
+    <Compile Include="Modelo\Provincia.cs" />
+    <Compile Include="Modelo\Recinto.cs" />
+    <Compile Include="Modelo\Region.cs" />
+    <Compile Include="Modelo\ServicioExtra.cs" />
+    <Compile Include="Modelo\Transporte.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Errores\" />
+    <Folder Include="Reporte\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\back.jpg" />
+    <Resource Include="Imagenes\pexels-photo-374592.jpeg" />
+    <Resource Include="Imagenes\pexels-photo-701026.jpeg" />
+    <Resource Include="Imagenes\pexels-photo-701337.jpeg" />
+    <Resource Include="Imagenes\pexels-photo-701449.jpeg" />
+    <Resource Include="Imagenes\pexels-photo-701762.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\turismo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\mainwindow\La_Serena.jpg" />
+    <Resource Include="Imagenes\mainwindow\Santiago.jpg" />
+    <Resource Include="Imagenes\mainwindow\temuco.jpg" />
+    <Resource Include="Imagenes\mainwindow\villarica.jpg" />
+    <Resource Include="Imagenes\mainwindow\viña-del-mar.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\MaterialDesignThemes.3.2.0\build\MaterialDesignThemes.targets" Condition="Exists('..\packages\MaterialDesignThemes.3.2.0\build\MaterialDesignThemes.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\MaterialDesignThemes.3.2.0\build\MaterialDesignThemes.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MaterialDesignThemes.3.2.0\build\MaterialDesignThemes.targets'))" />
+  </Target>
+</Project>
